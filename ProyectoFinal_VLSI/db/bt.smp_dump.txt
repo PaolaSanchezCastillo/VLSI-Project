@@ -1,0 +1,7 @@
+
+State Machine - |bt|rx_sampler:u2|state
+Name state.stop state.data state.start state.idle 
+state.idle 0 0 0 0 
+state.start 0 0 1 1 
+state.data 0 1 0 1 
+state.stop 1 0 0 1 

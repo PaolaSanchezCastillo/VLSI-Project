@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ledsmatriz[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsmatriz[14]",
+					"strict" : false
+				},
+				{
+					"name" : "din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "din[2]",
+					"strict" : false
+				},
+				{
+					"name" : "din[3]",
+					"strict" : false
+				},
+				{
+					"name" : "din[4]",
+					"strict" : false
+				},
+				{
+					"name" : "din[5]",
+					"strict" : false
+				},
+				{
+					"name" : "din[6]",
+					"strict" : false
+				},
+				{
+					"name" : "din[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk12Mhz",
+					"strict" : false
+				},
+				{
+					"name" : "rx",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

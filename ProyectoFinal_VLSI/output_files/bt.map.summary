@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Dec 01 09:50:22 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : bt
+Top-level Entity Name : bt
+Family : MAX 10
+Total logic elements : 442
+    Total combinational functions : 392
+    Dedicated logic registers : 143
+Total registers : 143
+Total pins : 26
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
