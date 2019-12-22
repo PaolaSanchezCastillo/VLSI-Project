@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sun Dec 01 09:50:51 2019
+Fitter Status : Successful - Tue Dec 03 15:49:46 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : bt
 Top-level Entity Name : bt
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 407 / 49,760 ( < 1 % )
-    Total combinational functions : 393 / 49,760 ( < 1 % )
+Total logic elements : 410 / 49,760 ( < 1 % )
+    Total combinational functions : 394 / 49,760 ( < 1 % )
     Dedicated logic registers : 143 / 49,760 ( < 1 % )
 Total registers : 143
 Total pins : 26 / 360 ( 7 % )

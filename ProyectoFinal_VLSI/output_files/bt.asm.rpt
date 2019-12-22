@@ -1,5 +1,5 @@
 Assembler report for bt
-Sun Dec 01 09:51:00 2019
+Tue Dec 03 15:49:54 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/output_files/bt.sof
+  5. Assembler Device Options: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/output_files/bt.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Dec 01 09:51:00 2019 ;
+; Assembler Status      ; Successful - Tue Dec 03 15:49:54 2019 ;
 ; Revision Name         ; bt                                    ;
 ; Top-level Entity Name ; bt                                    ;
 ; Family                ; MAX 10                                ;
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+-----------------------------------------------------------------------------+
-; Assembler Generated Files                                                   ;
-+-----------------------------------------------------------------------------+
-; File Name                                                                   ;
-+-----------------------------------------------------------------------------+
-; C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/output_files/bt.sof ;
-+-----------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                              ;
++--------------------------------------------------------------------------------------------------------+
+; File Name                                                                                              ;
++--------------------------------------------------------------------------------------------------------+
+; C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/output_files/bt.sof ;
++--------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/output_files/bt.sof ;
-+----------------+--------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                              ;
-+----------------+--------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x002A6E22                                                                           ;
-; Checksum       ; 0x002A6E22                                                                           ;
-+----------------+--------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/output_files/bt.sof ;
++----------------+-----------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                         ;
++----------------+-----------------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x002AC9C1                                                                                                      ;
+; Checksum       ; 0x002AC9C1                                                                                                      ;
++----------------+-----------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,15 +77,15 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Dec 01 09:50:55 2019
+    Info: Processing started: Tue Dec 03 15:49:48 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off bt -c bt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4678 megabytes
-    Info: Processing ended: Sun Dec 01 09:51:00 2019
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 4677 megabytes
+    Info: Processing ended: Tue Dec 03 15:49:54 2019
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:05
 
 

@@ -2,43 +2,43 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'matriz:u3|\divi:cuenta[20]'
-Slack : -4.492
-TNS   : -37.619
+Type  : Slow 1200mV 85C Model Setup 'matriz:u3|\divisor:CUENTA[22]'
+Slack : -5.309
+TNS   : -47.578
 
 Type  : Slow 1200mV 85C Model Setup 'clk12Mhz'
-Slack : -4.182
-TNS   : -193.570
+Slack : -5.016
+TNS   : -205.325
 
 Type  : Slow 1200mV 85C Model Setup 'baudRateGenerator:u1|tick'
-Slack : -1.850
-TNS   : -40.746
+Slack : -1.845
+TNS   : -42.057
 
-Type  : Slow 1200mV 85C Model Setup 'matriz:u3|\divi:cuenta[10]'
-Slack : -0.146
-TNS   : -0.146
+Type  : Slow 1200mV 85C Model Setup 'matriz:u3|\divisor:CUENTA[2]'
+Slack : -0.154
+TNS   : -0.154
 
 Type  : Slow 1200mV 85C Model Hold 'baudRateGenerator:u1|tick'
-Slack : 0.330
+Slack : 0.325
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'matriz:u3|\divi:cuenta[20]'
-Slack : 0.347
+Type  : Slow 1200mV 85C Model Hold 'matriz:u3|\divisor:CUENTA[2]'
+Slack : 0.340
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'matriz:u3|\divi:cuenta[10]'
-Slack : 0.348
+Type  : Slow 1200mV 85C Model Hold 'matriz:u3|\divisor:CUENTA[22]'
+Slack : 0.358
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk12Mhz'
-Slack : 0.626
+Slack : 0.625
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk12Mhz'
 Slack : -3.000
 TNS   : -88.583
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'matriz:u3|\divi:cuenta[20]'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'matriz:u3|\divisor:CUENTA[22]'
 Slack : -1.403
 TNS   : -72.956
 
@@ -46,47 +46,47 @@ Type  : Slow 1200mV 85C Model Minimum Pulse Width 'baudRateGenerator:u1|tick'
 Slack : -1.403
 TNS   : -37.881
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'matriz:u3|\divi:cuenta[10]'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'matriz:u3|\divisor:CUENTA[2]'
 Slack : -1.403
 TNS   : -4.209
 
-Type  : Slow 1200mV 0C Model Setup 'matriz:u3|\divi:cuenta[20]'
-Slack : -4.093
-TNS   : -31.960
+Type  : Slow 1200mV 0C Model Setup 'matriz:u3|\divisor:CUENTA[22]'
+Slack : -4.817
+TNS   : -41.504
 
 Type  : Slow 1200mV 0C Model Setup 'clk12Mhz'
-Slack : -3.839
-TNS   : -173.299
+Slack : -4.567
+TNS   : -183.010
 
 Type  : Slow 1200mV 0C Model Setup 'baudRateGenerator:u1|tick'
-Slack : -1.598
-TNS   : -34.617
+Slack : -1.582
+TNS   : -35.667
 
-Type  : Slow 1200mV 0C Model Setup 'matriz:u3|\divi:cuenta[10]'
-Slack : -0.049
-TNS   : -0.049
+Type  : Slow 1200mV 0C Model Setup 'matriz:u3|\divisor:CUENTA[2]'
+Slack : -0.058
+TNS   : -0.058
 
 Type  : Slow 1200mV 0C Model Hold 'baudRateGenerator:u1|tick'
-Slack : 0.296
+Slack : 0.292
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'matriz:u3|\divi:cuenta[10]'
-Slack : 0.312
+Type  : Slow 1200mV 0C Model Hold 'matriz:u3|\divisor:CUENTA[2]'
+Slack : 0.304
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'matriz:u3|\divi:cuenta[20]'
-Slack : 0.312
+Type  : Slow 1200mV 0C Model Hold 'matriz:u3|\divisor:CUENTA[22]'
+Slack : 0.323
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clk12Mhz'
-Slack : 0.582
+Slack : 0.581
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk12Mhz'
 Slack : -3.000
 TNS   : -88.583
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'matriz:u3|\divi:cuenta[20]'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'matriz:u3|\divisor:CUENTA[22]'
 Slack : -1.403
 TNS   : -72.956
 
@@ -94,47 +94,47 @@ Type  : Slow 1200mV 0C Model Minimum Pulse Width 'baudRateGenerator:u1|tick'
 Slack : -1.403
 TNS   : -37.881
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'matriz:u3|\divi:cuenta[10]'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'matriz:u3|\divisor:CUENTA[2]'
 Slack : -1.403
 TNS   : -4.209
 
 Type  : Fast 1200mV 0C Model Setup 'clk12Mhz'
-Slack : -1.604
-TNS   : -55.672
+Slack : -1.725
+TNS   : -60.574
 
-Type  : Fast 1200mV 0C Model Setup 'matriz:u3|\divi:cuenta[20]'
-Slack : -1.327
-TNS   : -7.993
+Type  : Fast 1200mV 0C Model Setup 'matriz:u3|\divisor:CUENTA[22]'
+Slack : -1.720
+TNS   : -11.296
 
 Type  : Fast 1200mV 0C Model Setup 'baudRateGenerator:u1|tick'
-Slack : -0.266
-TNS   : -2.987
+Slack : -0.251
+TNS   : -2.909
 
-Type  : Fast 1200mV 0C Model Setup 'matriz:u3|\divi:cuenta[10]'
-Slack : 0.510
+Type  : Fast 1200mV 0C Model Setup 'matriz:u3|\divisor:CUENTA[2]'
+Slack : 0.506
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'baudRateGenerator:u1|tick'
-Slack : 0.144
+Slack : 0.142
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'matriz:u3|\divi:cuenta[10]'
-Slack : 0.152
+Type  : Fast 1200mV 0C Model Hold 'matriz:u3|\divisor:CUENTA[2]'
+Slack : 0.148
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'matriz:u3|\divi:cuenta[20]'
-Slack : 0.152
+Type  : Fast 1200mV 0C Model Hold 'matriz:u3|\divisor:CUENTA[22]'
+Slack : 0.154
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk12Mhz'
-Slack : 0.241
+Slack : 0.238
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk12Mhz'
 Slack : -3.000
-TNS   : -65.915
+TNS   : -74.173
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'matriz:u3|\divi:cuenta[20]'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'matriz:u3|\divisor:CUENTA[22]'
 Slack : -1.000
 TNS   : -52.000
 
@@ -142,7 +142,7 @@ Type  : Fast 1200mV 0C Model Minimum Pulse Width 'baudRateGenerator:u1|tick'
 Slack : -1.000
 TNS   : -27.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'matriz:u3|\divi:cuenta[10]'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'matriz:u3|\divisor:CUENTA[2]'
 Slack : -1.000
 TNS   : -3.000
 

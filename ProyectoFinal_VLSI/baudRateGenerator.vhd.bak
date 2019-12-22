@@ -12,7 +12,7 @@ begin
 		variable cnt: integer := 0;
 	begin 
 		if rising_edge(clk12MHz) then 
-			if cnt < 325 then
+			if cnt < 78 then
 				cnt := cnt + 1;
 				tick <= '0';
 			else

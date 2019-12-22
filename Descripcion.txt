@@ -1,0 +1,7 @@
+Descripción Del Proyecto
+Se llevará a cabo la implementación de un letrero luminoso que tendrá un corrimiento. Esto, con la finalidad de mostrar un carácter 
+El usuario dispone de una aplicación con la que puede enviar en carácter vía bluetooth a la tarjeta y esta a su vez la mostrara en la matriz. 
+
+En la matriz de leds se verá el valor numérico, mientras que en la tarjeta se visualiza en binario. 
+
+

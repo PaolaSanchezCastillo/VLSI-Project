@@ -1,5 +1,5 @@
 Analysis & Synthesis report for bt
-Sun Dec 01 09:50:22 2019
+Tue Dec 03 15:49:22 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -47,13 +47,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Dec 01 09:50:22 2019       ;
+; Analysis & Synthesis Status        ; Successful - Tue Dec 03 15:49:22 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; bt                                          ;
 ; Top-level Entity Name              ; bt                                          ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 442                                         ;
-;     Total combinational functions  ; 392                                         ;
+; Total logic elements               ; 443                                         ;
+;     Total combinational functions  ; 393                                         ;
 ;     Dedicated logic registers      ; 143                                         ;
 ; Total registers                    ; 143                                         ;
 ; Total pins                         ; 26                                          ;
@@ -169,16 +169,16 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                  ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------+---------+
-; bt.vhd                           ; yes             ; User VHDL File  ; C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd                ;         ;
-; matriz.vhd                       ; yes             ; User VHDL File  ; C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd            ;         ;
-; rx_sampler.vhd                   ; yes             ; User VHDL File  ; C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/rx_sampler.vhd        ;         ;
-; baudRateGenerator.vhd            ; yes             ; User VHDL File  ; C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/baudRateGenerator.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                    ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                             ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------+---------+
+; bt.vhd                           ; yes             ; User VHDL File  ; C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd                ;         ;
+; matriz.vhd                       ; yes             ; User VHDL File  ; C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd            ;         ;
+; rx_sampler.vhd                   ; yes             ; User VHDL File  ; C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/rx_sampler.vhd        ;         ;
+; baudRateGenerator.vhd            ; yes             ; User VHDL File  ; C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/baudRateGenerator.vhd ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------------+
@@ -186,16 +186,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+----------------------+
 ; Resource                                    ; Usage                ;
 +---------------------------------------------+----------------------+
-; Estimated Total logic elements              ; 442                  ;
+; Estimated Total logic elements              ; 443                  ;
 ;                                             ;                      ;
-; Total combinational functions               ; 392                  ;
+; Total combinational functions               ; 393                  ;
 ; Logic element usage by number of LUT inputs ;                      ;
-;     -- 4 input functions                    ; 252                  ;
-;     -- 3 input functions                    ; 59                   ;
-;     -- <=2 input functions                  ; 81                   ;
+;     -- 4 input functions                    ; 250                  ;
+;     -- 3 input functions                    ; 70                   ;
+;     -- <=2 input functions                  ; 73                   ;
 ;                                             ;                      ;
 ; Logic elements by mode                      ;                      ;
-;     -- normal mode                          ; 334                  ;
+;     -- normal mode                          ; 335                  ;
 ;     -- arithmetic mode                      ; 58                   ;
 ;                                             ;                      ;
 ; Total registers                             ; 143                  ;
@@ -208,8 +208,8 @@ refer to the applicable agreement for further details.
 ;                                             ;                      ;
 ; Maximum fan-out node                        ; rx_sampler:u2|din[0] ;
 ; Maximum fan-out                             ; 88                   ;
-; Total fan-out                               ; 1727                 ;
-; Average fan-out                             ; 2.90                 ;
+; Total fan-out                               ; 1736                 ;
+; Average fan-out                             ; 2.91                 ;
 +---------------------------------------------+----------------------+
 
 
@@ -218,8 +218,8 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name      ; Entity Name       ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------+-------------------+--------------+
-; |bt                        ; 392 (0)             ; 143 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 26   ; 0            ; 0          ; |bt                      ; bt                ; work         ;
-;    |baudRateGenerator:u1|  ; 42 (42)             ; 33 (33)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |bt|baudRateGenerator:u1 ; baudRateGenerator ; work         ;
+; |bt                        ; 393 (0)             ; 143 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 26   ; 0            ; 0          ; |bt                      ; bt                ; work         ;
+;    |baudRateGenerator:u1|  ; 43 (43)             ; 33 (33)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |bt|baudRateGenerator:u1 ; baudRateGenerator ; work         ;
 ;    |matriz:u3|             ; 310 (310)           ; 83 (83)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |bt|matriz:u3            ; matriz            ; work         ;
 ;    |rx_sampler:u2|         ; 40 (40)             ; 27 (27)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |bt|rx_sampler:u2        ; rx_sampler        ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------+-------------------+--------------+
@@ -314,18 +314,18 @@ Encoding Type:  One-Hot
 ;     SCLR              ; 32                          ;
 ;     plain             ; 101                         ;
 ; cycloneiii_io_obuf    ; 8                           ;
-; cycloneiii_lcell_comb ; 401                         ;
+; cycloneiii_lcell_comb ; 402                         ;
 ;     arith             ; 58                          ;
 ;         2 data inputs ; 58                          ;
-;     normal            ; 343                         ;
+;     normal            ; 344                         ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 13                          ;
-;         2 data inputs ; 18                          ;
-;         3 data inputs ; 59                          ;
-;         4 data inputs ; 252                         ;
+;         2 data inputs ; 10                          ;
+;         3 data inputs ; 70                          ;
+;         4 data inputs ; 250                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 11.00                       ;
-; Average LUT depth     ; 5.36                        ;
+; Average LUT depth     ; 5.31                        ;
 +-----------------------+-----------------------------+
 
 
@@ -334,7 +334,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -344,84 +344,84 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Dec 01 09:49:56 2019
+    Info: Processing started: Tue Dec 03 15:48:58 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bt -c bt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file bt.vhd
-    Info (12022): Found design unit 1: bt-behavior File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 12
-    Info (12023): Found entity 1: bt File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 4
+    Info (12022): Found design unit 1: bt-behavior File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 12
+    Info (12023): Found entity 1: bt File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file matriz.vhd
-    Info (12022): Found design unit 1: matriz-behavior File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 13
-    Info (12023): Found entity 1: matriz File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 6
+    Info (12022): Found design unit 1: matriz-behavior File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 13
+    Info (12023): Found entity 1: matriz File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file rx_sampler.vhd
-    Info (12022): Found design unit 1: rx_sampler-behavior File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/rx_sampler.vhd Line: 11
-    Info (12023): Found entity 1: rx_sampler File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/rx_sampler.vhd Line: 4
+    Info (12022): Found design unit 1: rx_sampler-behavior File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/rx_sampler.vhd Line: 11
+    Info (12023): Found entity 1: rx_sampler File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/rx_sampler.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file baudrategenerator.vhd
-    Info (12022): Found design unit 1: baudRateGenerator-behavior File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/baudRateGenerator.vhd Line: 9
-    Info (12023): Found entity 1: baudRateGenerator File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/baudRateGenerator.vhd Line: 4
+    Info (12022): Found design unit 1: baudRateGenerator-behavior File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/baudRateGenerator.vhd Line: 9
+    Info (12023): Found entity 1: baudRateGenerator File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/baudRateGenerator.vhd Line: 4
 Info (12127): Elaborating entity "bt" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at bt.vhd(14): object "rx_done" assigned a value but never read File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 14
-Info (12129): Elaborating entity "baudRateGenerator" using architecture "A:behavior" for hierarchy "baudRateGenerator:u1" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 17
-Info (12129): Elaborating entity "rx_sampler" using architecture "A:behavior" for hierarchy "rx_sampler:u2" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 18
-Info (12129): Elaborating entity "matriz" using architecture "A:behavior" for hierarchy "matriz:u3" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 19
-Warning (10492): VHDL Process Statement warning at matriz.vhd(61): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 61
-Warning (10492): VHDL Process Statement warning at matriz.vhd(62): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 62
-Warning (10492): VHDL Process Statement warning at matriz.vhd(63): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 63
-Warning (10492): VHDL Process Statement warning at matriz.vhd(64): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 64
-Warning (10492): VHDL Process Statement warning at matriz.vhd(65): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 65
-Warning (10492): VHDL Process Statement warning at matriz.vhd(66): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 66
-Warning (10492): VHDL Process Statement warning at matriz.vhd(67): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 67
-Warning (10492): VHDL Process Statement warning at matriz.vhd(68): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 68
-Warning (10492): VHDL Process Statement warning at matriz.vhd(125): signal "L0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 125
-Warning (10492): VHDL Process Statement warning at matriz.vhd(127): signal "L1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 127
-Warning (10492): VHDL Process Statement warning at matriz.vhd(129): signal "L2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 129
-Warning (10492): VHDL Process Statement warning at matriz.vhd(131): signal "L3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 131
-Warning (10492): VHDL Process Statement warning at matriz.vhd(133): signal "L4" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 133
-Warning (10492): VHDL Process Statement warning at matriz.vhd(135): signal "L5" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 135
-Warning (10492): VHDL Process Statement warning at matriz.vhd(137): signal "L6" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 137
-Warning (10492): VHDL Process Statement warning at matriz.vhd(139): signal "L7" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/matriz.vhd Line: 139
+Warning (10036): Verilog HDL or VHDL warning at bt.vhd(14): object "rx_done" assigned a value but never read File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 14
+Info (12129): Elaborating entity "baudRateGenerator" using architecture "A:behavior" for hierarchy "baudRateGenerator:u1" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 17
+Info (12129): Elaborating entity "rx_sampler" using architecture "A:behavior" for hierarchy "rx_sampler:u2" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 18
+Info (12129): Elaborating entity "matriz" using architecture "A:behavior" for hierarchy "matriz:u3" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 19
+Warning (10492): VHDL Process Statement warning at matriz.vhd(83): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 83
+Warning (10492): VHDL Process Statement warning at matriz.vhd(84): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 84
+Warning (10492): VHDL Process Statement warning at matriz.vhd(85): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 85
+Warning (10492): VHDL Process Statement warning at matriz.vhd(86): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 86
+Warning (10492): VHDL Process Statement warning at matriz.vhd(87): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 87
+Warning (10492): VHDL Process Statement warning at matriz.vhd(88): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 88
+Warning (10492): VHDL Process Statement warning at matriz.vhd(89): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 89
+Warning (10492): VHDL Process Statement warning at matriz.vhd(90): signal "data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 90
+Warning (10492): VHDL Process Statement warning at matriz.vhd(147): signal "L0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 147
+Warning (10492): VHDL Process Statement warning at matriz.vhd(149): signal "L1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 149
+Warning (10492): VHDL Process Statement warning at matriz.vhd(151): signal "L2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 151
+Warning (10492): VHDL Process Statement warning at matriz.vhd(153): signal "L3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 153
+Warning (10492): VHDL Process Statement warning at matriz.vhd(155): signal "L4" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 155
+Warning (10492): VHDL Process Statement warning at matriz.vhd(157): signal "L5" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 157
+Warning (10492): VHDL Process Statement warning at matriz.vhd(159): signal "L6" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 159
+Warning (10492): VHDL Process Statement warning at matriz.vhd(161): signal "L7" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/matriz.vhd Line: 161
 Warning (13034): The following nodes have both tri-state and non-tri-state drivers
-    Warning (13035): Inserted always-enabled tri-state buffer between "din[0]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13035): Inserted always-enabled tri-state buffer between "din[1]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13035): Inserted always-enabled tri-state buffer between "din[2]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13035): Inserted always-enabled tri-state buffer between "din[3]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13035): Inserted always-enabled tri-state buffer between "din[4]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13035): Inserted always-enabled tri-state buffer between "din[5]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13035): Inserted always-enabled tri-state buffer between "din[6]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13035): Inserted always-enabled tri-state buffer between "din[7]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13035): Inserted always-enabled tri-state buffer between "din[0]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13035): Inserted always-enabled tri-state buffer between "din[1]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13035): Inserted always-enabled tri-state buffer between "din[2]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13035): Inserted always-enabled tri-state buffer between "din[3]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13035): Inserted always-enabled tri-state buffer between "din[4]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13035): Inserted always-enabled tri-state buffer between "din[5]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13035): Inserted always-enabled tri-state buffer between "din[6]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13035): Inserted always-enabled tri-state buffer between "din[7]" and its non-tri-state driver. File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
 Info (13060): One or more bidirectional pins are fed by always enabled tri-state buffers
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[0]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[1]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[2]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[3]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[4]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[5]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[6]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[7]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[0]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[1]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[2]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[3]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[4]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[5]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[6]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "din[7]" is moved to its source File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
 Warning (13009): TRI or OPNDRN buffers permanently enabled
-    Warning (13010): Node "din[0]~synth" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13010): Node "din[1]~synth" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13010): Node "din[2]~synth" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13010): Node "din[3]~synth" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13010): Node "din[4]~synth" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13010): Node "din[5]~synth" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13010): Node "din[6]~synth" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
-    Warning (13010): Node "din[7]~synth" File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13010): Node "din[0]~synth" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13010): Node "din[1]~synth" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13010): Node "din[2]~synth" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13010): Node "din[3]~synth" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13010): Node "din[4]~synth" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13010): Node "din[5]~synth" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13010): Node "din[6]~synth" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
+    Warning (13010): Node "din[7]~synth" File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 8
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "ledsmatriz[15]" is stuck at GND File: C:/Users/PaolaElizabeth/Desktop/VLSI/ProyectoFinal_VLSI/bt.vhd Line: 7
+    Warning (13410): Pin "ledsmatriz[15]" is stuck at GND File: C:/Users/PaolaElizabeth/Desktop/ProyectoFinal_VLSI/VLSI-Project/ProyectoFinal_VLSI/bt.vhd Line: 7
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 477 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 478 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 16 output pins
     Info (21060): Implemented 8 bidirectional pins
-    Info (21061): Implemented 451 logic cells
+    Info (21061): Implemented 452 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 38 warnings
-    Info: Peak virtual memory: 4785 megabytes
-    Info: Processing ended: Sun Dec 01 09:50:22 2019
-    Info: Elapsed time: 00:00:26
+    Info: Peak virtual memory: 4779 megabytes
+    Info: Processing ended: Tue Dec 03 15:49:22 2019
+    Info: Elapsed time: 00:00:24
     Info: Total CPU time (on all processors): 00:00:45
 
 
